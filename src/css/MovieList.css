@@ -1,0 +1,34 @@
+.wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  transform: translateX(20px);
+}
+.wrap .container {
+  margin: 5px;
+  width: 200px;
+  min-height: 300px;
+  box-sizing: border-box;
+  padding: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  transition: 0.4 all ease;
+  box-shadow: 0 0 5px #bab6b6;
+}
+.wrap .container:hover {
+  transform: rotate(2deg) scale(1.05);
+}
+.wrap .container img {
+  width: 100%;
+  height: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.wrap .container span {
+  color: #e4c517;
+}
+.wrap .pagination {
+  margin-left: 32%;
+}
